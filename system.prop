@@ -73,6 +73,9 @@ wifi.interface=wlan0
 # Havoc
 ro.havoc.maintainer=Jprimero15
 
+# Lolz config
+ro.config.lolz=true
+
 # X Hax
 persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
