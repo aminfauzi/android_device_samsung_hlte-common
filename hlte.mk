@@ -71,10 +71,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 PRODUCT_PACKAGES += \
     FlipFlap
 
-# Gestures
-PRODUCT_PACKAGES += \
-    org.lineageos.keyhandler
-
 # Input device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
@@ -84,6 +80,10 @@ PRODUCT_PACKAGES += \
     consumerir.msm8974 \
     consumerir.default \
     android.hardware.ir@1.0-impl
+
+# Keyhandler
+PRODUCT_PACKAGES += \
+    KeyHandler
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
