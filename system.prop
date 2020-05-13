@@ -70,9 +70,6 @@ persist.sys.wfd.virtual=0
 # Wifi
 wifi.interface=wlan0
 
-# Havoc
-ro.havoc.maintainer=Jprimero15
-
 # Lolz config
 ro.config.lolz=true
 
@@ -81,4 +78,3 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
-
