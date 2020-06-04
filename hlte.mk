@@ -107,6 +107,12 @@ PRODUCT_COPY_FILES += \
 # Shipping API lvl
 PRODUCT_SHIPPING_API_LEVEL := 18
 
+# Superior OS Official
+export SUPERIOR_OFFICIAL := true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.superior.maintainer=AminFauzi
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-common \
