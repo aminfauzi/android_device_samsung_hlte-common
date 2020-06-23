@@ -274,6 +274,8 @@ vendor/firmware/bcm2079xB4_firmware.ncd
 vendor/firmware/bcm2079xB4_pre_firmware.ncd
 vendor/firmware/bcm2079xB5_firmware.ncd
 vendor/firmware/bcm2079xB5_pre_firmware.ncd
+vendor/lib/hw/android.hardware.nfc@1.0-impl-bcm.so
+vendor/lib/hw/nfc_nci.bcm2079x.default.so
 
 # Perf
 vendor/lib/libqti-perfd-client.so
