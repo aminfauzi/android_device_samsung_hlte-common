@@ -27,6 +27,9 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
 
+#Dolby Digital Plus
+sys.keep_app_1=com.dolby.ds1appUI
+
 # GPS
 persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1
