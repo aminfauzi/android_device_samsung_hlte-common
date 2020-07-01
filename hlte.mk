@@ -47,6 +47,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Dolby Digital Plus
+PRODUCT_PACKAGES += \
+	Ds \
+	DsUI
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 

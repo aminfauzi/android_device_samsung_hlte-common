@@ -38,6 +38,9 @@ debug.hwui.use_buffer_age=false
 debug.sf.enable_gl_backpressure=1
 debug.sf.latch_unsignaled=1
 
+#Dolby Digital Plus
+sys.keep_app_1=com.dolby.ds1appUI
+
 # GPS
 persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1
