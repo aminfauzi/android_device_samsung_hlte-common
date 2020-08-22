@@ -47,6 +47,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Keyhandler
 PRODUCT_PACKAGES += \
     KeyHandler
