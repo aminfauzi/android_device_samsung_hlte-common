@@ -316,9 +316,6 @@
     <!-- Button Backlight -->
     <bool name="config_button_brightness_support">true</bool>
 
-    <!-- Enable Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
-
     <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
     <bool name="config_enableBurnInProtection">true</bool>
 
