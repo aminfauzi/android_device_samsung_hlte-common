@@ -61,6 +61,9 @@ ro.telephony.mms_data_profile=5
 # Sensors
 debug.sensors=1
 
+# Vendor security patch level
+ro.lineage.build.vendor_security_patch=2016-06-01
+
 # WFD
 wlan.wfd.hdcp=disable
 persist.debug.wfd.enable=1 
@@ -77,3 +80,5 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
+
+
