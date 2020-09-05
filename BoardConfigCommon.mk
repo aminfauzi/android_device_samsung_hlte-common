@@ -115,9 +115,6 @@ ifeq ($(WITH_TWRP),true)
 -include $(COMMON_PATH)/twrp.mk
 endif
 
-# Use Snapdragon LLVM if available on build server
-TARGET_USE_SDCLANG := true
-
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_WLAN_DEVICE := bcmdhd
