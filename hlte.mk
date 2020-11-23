@@ -138,7 +138,6 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    libnetcmdiface \
     macloader
 
 PRODUCT_COPY_FILES += \
