@@ -105,9 +105,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_binder
 
-# Shipping API level
-$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
-
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8974.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8974.conf
