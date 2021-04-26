@@ -106,7 +106,7 @@ PRODUCT_PACKAGES += \
     libshim_binder
 
 # Shipping API level
-$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
+PRODUCT_SHIPPING_API_LEVEL := 18
 
 # Thermal
 PRODUCT_COPY_FILES += \
