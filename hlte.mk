@@ -64,6 +64,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
