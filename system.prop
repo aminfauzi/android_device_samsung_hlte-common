@@ -63,3 +63,6 @@ wifi.interface=wlan0
 wlan.wfd.hdcp=disable
 persist.debug.wfd.enable=1 
 persist.sys.wfd.virtual=0
+
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
