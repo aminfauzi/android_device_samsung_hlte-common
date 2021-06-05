@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
         Ds \
         DsUI
 
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Faceunlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
