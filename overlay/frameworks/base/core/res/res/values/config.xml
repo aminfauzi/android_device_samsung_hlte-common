@@ -231,4 +231,8 @@
          Menu keys would set this config to 7. -->
     <integer name="config_deviceHardwareKeys">71</integer>
 
+    <!-- Enable hw button Wake Keys -->
+    <bool name="config_HomeWakeButton">true</bool>
+    <integer name="config_deviceHardwareWakeKeys">65</integer>
+
 </resources>
