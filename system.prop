@@ -55,3 +55,8 @@ debug.sensors=1
 
 # Wifi
 wifi.interface=wlan0
+
+# Wifi Display
+wlan.wfd.hdcp=disable
+persist.debug.wfd.enable=1 
+persist.sys.wfd.virtual=0
